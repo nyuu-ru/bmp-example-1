@@ -73,8 +73,8 @@ int main()
 	for (int x = 0; x < 800; ++x) {
 		int y = int(300+250*cos(x / 40.0));
 		pixels[y*WIDTH + x] = 0xffffffff;
-		pixels[y*WIDTH + x+1] = 0xffffffff;
-		pixels[y*WIDTH + x+2] = 0xffffffff;
+		pixels[y*WIDTH + x+1] = 0xff00ff00;
+		pixels[y*WIDTH + x+2] = 0xffff00ff;
 	}
 
 
